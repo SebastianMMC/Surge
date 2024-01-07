@@ -12,6 +12,7 @@ DOMAIN-SET,https://ruleset.isagood.day/reject_tinygif.conf,REJECT-TINYGIF
 #### Apple CDN
 - 自动生成
 - 数据来源：[https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf](https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf)
+- Apple 在中国大陆提供 CDN 的域名
 ```ini
 DOMAIN-SET,https://ruleset.isagood.day/apple_cdn_domain.conf,[Replace with your policy]
 ```
@@ -19,12 +20,14 @@ DOMAIN-SET,https://ruleset.isagood.day/apple_cdn_domain.conf,[Replace with your 
 #### Apple Service
 - 自动生成
 - 数据来源：[https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_services.conf](https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_services.conf)
+- 苹果服务
 ```ini
 RULE-SET,https://ruleset.isagood.day/apple_services.conf,[Replace with your policy],extended-matching
 ```
 
 #### Apple All
 - 手动维护
+- Apple 所有域名
 ```ini
 RULE-SET,https://ruleset.isagood.day/apple_domain.conf,[Replace with your policy],extended-matching
 ```
