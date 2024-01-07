@@ -2,7 +2,7 @@
 
 #### 广告拦截
 - 自动生成
-- 数据来源：[`https://github.com/SukkaW/Surge/tree/master`](https://github.com/SukkaW/Surge/tree/master))
+- 数据来源：[`https://github.com/SukkaW/Surge/tree/master`](https://github.com/SukkaW/Surge/tree/master)
 ```ini
 RULE-SET,https://ruleset.isagood.day/reject.conf,REJECT
 RULE-SET,https://ruleset.isagood.day/reject_drop.conf,REJECT-DROP
@@ -46,6 +46,23 @@ RULE-SET,https://ruleset.isagood.day/telegram_dc4.conf,[Replace with your policy
 RULE-SET,https://ruleset.isagood.day/telegram_dc5.conf,[Replace with your policy]
 # 其他服务
 RULE-SET,https://ruleset.isagood.day/telegram_other.conf,[Replace with your policy]
+```
 
+#### WeChat
+- 手动维护
+```ini
+# 非+86
+RULE-SET,https://ruleset.isagood.day/wechat.conf,[Replace with your policy]
+```
+
+#### Bard
+- 手动维护
+```ini
+RULE-SET,https://ruleset.isagood.day/bardai.conf,[Replace with your policy]
+```
+#### OpenAI
+- 手动维护
+```ini
+https://ruleset.isagood.day/openai.conf,[Replace with your policy]
 ```
 
